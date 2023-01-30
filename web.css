@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;900&display=swap');
+
+@media(max-width: 600px){
+    body{
+        font-family: 'Poppins';
+        padding: 15px;
+    }
+    
+    .img{
+        width: 15px;
+        height: 15px;
+        padding-right: 20px;
+        margin-bottom: 1px;
+    }
+    
+    h2{
+        font: 40px;
+        font-weight: 700;
+    }
+
+    .flex-container{
+        display: flex;
+        align-items: center;
+    }
+
+    .autor{
+        border-radius:150px;
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+
+    .categoria{
+        display: flex;
+    }
+
+    .subtitulo{
+        color:#222;
+        font: 18px;
+    }
+
+    .titulo{
+        color:#222;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 45px;
+    }
+
+    .text{
+        color: #888;
+        font: 14px;
+    }
+
+    img{
+        width:100%;
+        /* margin-bottom: 30px; */
+        border-radius:7px;
+    }
+
+    .email{
+        width:98%;
+        border-radius: 5px;
+        border-color: #888;
+    }
+    
+    button{
+        width:100%;
+        background-color: orange;
+        color: white;
+        margin-bottom: 100px;
+        border-radius: 15px;
+    }
+
+    .separacion{
+        margin-bottom: 50px;
+    }
+
+    .titulo-periodico{
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .footer{
+        text-align: center;
+        background-color: #F9F9F9;
+    }
+
+    .uno{
+        background-color: #F9F9F9;
+    }
+   
+    #img1{
+        float: right;
+    }
+
+    .search{
+        width:98%;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media(min-width: 600px){
+    body{
+        font-family: 'Poppins';
+        padding: 15px;
+        max-width: 1320px;
+        margin-left: 6%;
+    }
+
+    h2{
+        font: 40px;
+        font-weight: 700;
+    }
+
+    .img{
+        width: 15px;
+        height: 15px;
+        padding-right: 20px;
+        margin-bottom: 1px;
+    }
+
+    #img1{
+        width: 30px;
+        height: 30px;
+        margin-left: 150px;
+    }
+    
+    .search{
+        width:15%;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        order: -1;
+    }
+
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+    }
+
+    .autor{
+        border-radius:150px;
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+
+    img{
+        width: 100%;
+	    margin: auto;
+        border-radius:7px;
+    }
+
+    .articles{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+    }
+
+    .flex-container{
+        display: flex;
+        align-items: center;
+    }
+
+    .separacion{
+        margin-bottom: 30px;
+    }
+
+    .article{
+        margin-right: 40px;
+    }
+    .footer{
+        text-align: center;
+        background-color: #F9F9F9;
+    }
+
+    .uno{
+        background-color: #F9F9F9;
+    }
+
+    .titulo-periodico{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    button{
+        width:20%;
+        background-color: orange;
+        color: white;
+        margin-bottom: 70px;
+        border-radius: 15px;
+    }
+
+    .categoria{
+        display: flex;
+    }
+    
+    .email{
+        width:70%;
+        margin-right: 1%;
+        border-radius: 5px;
+        border-color: #888;
+    }
+
+    .text{
+        color: #888;
+        font: 14px;
+    }
+
+    .titulo{
+        color:#222;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 45px;
+    }
+
+    .subtitulo{
+        color:#222;
+        font: 18px;
+    }
+
+    .last_article{
+        width:55%;
+    }
+
+    .articulo-destacado{
+        display: flex;
+    }
+
+    .fhoto-one{
+        padding-right: 30px;
+        width:70%;
+    }
+
+    .text-one{
+        margin-right: 40px;
+    }
+}
